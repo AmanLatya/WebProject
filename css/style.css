@@ -1,0 +1,145 @@
+/* Colors */
+.bg-white {
+    background-color: white;
+}
+
+.bg-purple {
+    background-color: purple;
+}
+
+.bg-red {
+    background-color: #dc3545;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-green {
+    background-color: rgb(2, 95, 2);
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-violet {
+    background-color: violet;
+}
+
+.border-violet {
+    border-color: violet;
+}
+
+.border-yellow {
+    border-color: yellow;
+}
+
+.border-green {
+    border-color: rgb(0, 95, 0);
+}
+
+/* Colors */
+
+body {
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    /* background-image: linear-gradient(to right, rgb(158, 104, 194),rgb(185, 149, 244),rgb(222, 161, 240)); */
+}
+
+.nav-item:hover {
+    background-color: gainsboro;
+    border-radius: 2rem;
+}
+
+.bodyContainer {
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+}
+
+.UserImag {
+    max-width: 100%;
+    height: auto;
+}
+
+.lms h1 {
+    font-size: 2rem;
+}
+
+.lms p {
+    font-size: 1rem;
+}
+
+.coursesHeading {
+    text-align: center;
+
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.enroll {
+    border: none;
+    cursor: pointer;
+}
+
+
+.ContactContainer {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+#address {
+    transform: rotate(18deg);
+    width: 32rem;
+    /* border-radius: 0rem 17rem 0rem 17rem; */
+}
+
+
+#coursesBanner {
+    height: 50vh;
+    background-color: aqua;
+}
+
+@media (max-width: 768px) {
+    .lms h1 {
+        font-size: 1.5rem;
+    }
+
+    .lms p {
+        font-size: 0.9rem;
+    }
+}
