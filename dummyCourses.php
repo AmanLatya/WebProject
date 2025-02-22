@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+<?php
+include('./head.php')
+?>
+<body>
 
   <div class="CourseContainer container p-3 rounded" id="courses">
     <br><br>
@@ -40,3 +46,8 @@
       </div>
     </div>
   </div>
+
+</body>
+
+</html>
+
